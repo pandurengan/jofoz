@@ -1,0 +1,68 @@
+/* Common.css */
+
+*{margin:0;padding:0;}
+@font-face {
+    font-family: 'robotoregular';
+    src: url('fonts/Roboto-Regular-webfont.eot');
+    src: url('fonts/Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/Roboto-Regular-webfont.woff') format('woff'),
+         url('fonts/Roboto-Regular-webfont.ttf') format('truetype'),
+         url('fonts/Roboto-Regular-webfont.svg#robotoregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{font-family: 'robotoregular';font-size:12px;color:#fff;}
+h1,h2,h3,h4,h5,h6{font-family: 'robotoregular';}
+h1,h2{font-size:30px;}
+h3,h4{font-size:24px;}
+h5,h6{font-size:16px;}
+p,li,a,span,div{font-size:12px;}
+label,fieldset{font-size:14px;}
+ul,li{list-style:none;}
+a:hover{text-decoration:none;}
+
+/* header */
+.clshead_back{background:url("../images/banner.jpg") no-repeat 0 0 transparent;max-width:100%;margin:0px;background-size:cover;}
+.clsheadoverlay:after {content: '';position: absolute;top: 0;right: 0;bottom: 0;left: 0;background: #000;opacity:0.6;width:100%;height:100%;background-size:cover;z-index:0;}
+.clslogo_search{position:relative;z-index:1;}
+.clslogo h2{text-transform:uppercase;}
+.clswelcometext{text-align:center;}
+.clssearch_drop .clssearch{width:70%;}
+.clssearch_drop{width:60%;margin:0 auto;padding:150px 0;}
+.clssearch_drop > div{margin:0 10px 0 0;}
+/* end of header*/
+
+/*footer */
+footer{background-color: #282c35;border-top: 1px solid #eee;padding: 0;}
+footer h3{color:#adb0b6;font-size:18px;margin:12px 0;font-weight:bold;}
+footer li{padding:0 0 8px 0;}
+footer li a{color:#adb0b6;font-size:14px;}
+footer .footer{border:1px solid #3c3f46;padding:5px 0;}
+/* end of footer*/
+
+/* main */
+section.main{clear:both;padding:20px;}
+/* end of main*/
+
+/* collections css */
+.collections > h3{color:#404040;margin:10px 0 33px;}
+.collections .row .col-md-12{width:90%;margin:0 auto;float:none;}
+@media (min-width: 992px) {.collect-inner-div{width:24%;}}
+.collect-inner-div .content p,.collect-inner-div .content h5{color:#111;}
+.collect-inner-div .col-md-6,.collect-inner-div > .col-md-3{padding:0px;}
+.collect-inner-div > .col-md-3 img{border:1px solid #adadad;max-width:100%;}
+.collect-inner-div{background:#ddd;border:1px solid #aaa;padding:0px;margin:0px 10px 10px 0;}
+/* end of collections*/
+
+/* Quick search css */
+.quick_search h3{color:#404040;}
+.quick_search .icons img{opacity:0.4;}
+.quick_search .icons img:hover{opacity:0.8;}
+.quick_search .icons{background:#ddd;float:none;padding:10px 0;margin:0 auto;border: 1px solid #aaa;}
+.quick_search .icons .col-md-2{text-align:center;color:#111;}
+.quick_search .icons .col-md-2 a{color:#111;}
+/* end of Quick search*/
+
+
